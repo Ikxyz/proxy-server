@@ -2,6 +2,8 @@ import axios, { AxiosResponse } from 'axios';
 import cors from 'cors';
 import express, { json, text } from 'express';
 import morgan from 'morgan';
+import dotenv from "dotenv";
+dotenv.config();
 
 const { version } = require("./package.json");
 
